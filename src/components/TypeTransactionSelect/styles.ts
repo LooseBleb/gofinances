@@ -15,6 +15,8 @@ export const ButtonTypeTransaction = styled(TouchableOpacity)<ButtonProps>`
    
     width: 49%;
     height:  ${RFValue(60)}px;
+
+    margin-bottom: 16px;
     
     border-radius: 5px;
     

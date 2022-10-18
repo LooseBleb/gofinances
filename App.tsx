@@ -9,6 +9,7 @@ import { Navbar } from '@components/Navbar';
 import { SignIn } from '@screens/signin';
 
 
+
 export default function App() {
 
   const [fontsLoaded] = useFonts({ Poppins_400Regular, Poppins_500Medium, Poppins_700Bold });
@@ -19,7 +20,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <SignIn />
+      <SignIn  />
       <Navbar />
       <StatusBar barStyle='light-content' backgroundColor={'transparent'} translucent />
     </ThemeProvider>
